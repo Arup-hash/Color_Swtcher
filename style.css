@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.colorSwitcher {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid #efefef;
+    background: #dff9fb;
+    display: flex;
+    position: relative;
+}
+.para {
+    position: absolute;
+    left: 130px;
+    top: 100px;
+    font-size: 30px;
+}
+.grayBtn,
+.greenBtn,
+.blueBtn,
+.yellowBtn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    cursor: pointer;
+    margin: auto;
+}
+.grayBtn {
+    background: #535c68;    
+}
+.greenBtn {
+    background: #4cd137;    
+}
+.blueBtn {
+    background: #4834d4;    
+}
+.yellowBtn {
+    background: #f9ca24;    
+}
